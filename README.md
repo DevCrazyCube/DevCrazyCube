@@ -72,6 +72,3 @@ git clone https://github.com/DevCrazyCube/claude-skill-cold-read ~/.claude/skill
 | --- | --- |
 | [trading-research-lab](https://github.com/DevCrazyCube/trading-research-lab) | Evidence-first trading research: a measurement harness and forward paper tests. Not a trading bot, and nothing in it is shown to make money after costs |
 | [Flappybird-Reinforcement-learning](https://github.com/DevCrazyCube/Flappybird-Reinforcement-learning) | A PPO agent that learned Flappy Bird from five numbers. The game underneath is someone else's and is credited there |
-
-The pictures and descriptions of mc-trend-analysis, VitalMap, piper and the Sokoban solver show
-the version in each repository's open pull request #1.
