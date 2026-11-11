@@ -6,8 +6,18 @@
 I'm building **[StudySync](https://studysync.nl)**: it reads your course in Moodle or Canvas and turns
 it into flashcards, quizzes and cheatsheets, week by week. It is pre-launch.
 
-Everything here was built by directing AI coding agents, mostly [Claude Code](https://claude.com/claude-code).
-My part is the direction and the checking, so every README says what was run and what was not.
+I specialize in agent pipelines and orchestration: getting AI coding agents to build, review and ship real software, and knowing when their output can be trusted.
+
+Almost everything here was built by directing AI coding agents, mostly [Claude Code](https://claude.com/claude-code).
+I don't hand-write most of the code anymore. My part is the direction and the checking:
+
+- **Orchestration:** splitting work across parallel agents in separate worktrees, with one job per agent and a clear brief for each.
+- **Review pipelines:** multi-agent audits and critique rounds , where separate agents verify findings before anything is changed.
+- **Guardrails:** project rules, skills and memory files that agents read before they work, plus tests that fail when a rule is broken, such as an untrue marketing claim or a leaked answer key.
+- **Long-running jobs:** render and build pipelines on rented GPUs that resume after a failure, shut themselves down and log their cost.
+- **Verification:** type checks, tests and my own eyes on the result before it ships.
+
+Every README says what was run and what was not, so you can tell what is verified from what is only built.
 
 <p>
   <a href="https://studysync.nl"><b>studysync.nl</b></a> ·
