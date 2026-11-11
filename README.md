@@ -1,38 +1,77 @@
-# Hi, I'm Joyren
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <img src="assets/banner-light.svg" width="100%" alt="Joyren Terken. I build by directing AI coding agents, and I check what they make.">
+</picture>
 
-I'm building **[StudySync](https://studysync.nl)**: it reads your course in Moodle or Canvas and
-turns it into flashcards, quizzes and cheatsheets, week by week. Pre-launch, based in the
-Netherlands.
+I'm building **[StudySync](https://studysync.nl)**: it reads your course in Moodle or Canvas and turns
+it into flashcards, quizzes and cheatsheets, week by week. It is pre-launch.
 
-I ship by directing AI coding agents (mostly Claude Code) and checking what they make. The
-repositories below say what was run and what was not.
+Everything here was built by directing AI coding agents, mostly [Claude Code](https://claude.com/claude-code).
+My part is the direction and the checking, so every README says what was run and what was not.
+
+<p>
+  <a href="https://studysync.nl"><b>studysync.nl</b></a> ·
+  <a href="https://www.linkedin.com/in/joyren-terken-0bb02429a">LinkedIn</a> ·
+  <a href="https://www.instagram.com/dev.joyren">@dev.joyren</a> ·
+  <a href="https://www.instagram.com/studysyncnl">@studysyncnl</a>
+</p>
 
 ## Claude skills
 
-Small, tested skills for [Claude Code](https://claude.com/claude-code). Each one is a folder you
-copy into `~/.claude/skills/`, with a script that does the checkable part and tests for it.
+Seven small skills for Claude Code. Each is one folder: the instructions, a script for the part a
+machine can check, and tests for that script.
 
-| Skill | What it does |
-| --- | --- |
-| [film-ear-eye](https://github.com/DevCrazyCube/claude-skill-film-ear-eye) | Measures a film's sound (loudness, silences) and motion (cuts, camera speed, holds) before you call it done |
-| [art-director-round](https://github.com/DevCrazyCube/claude-skill-art-director-round) | A separate critic looks at stills of every shot, full size and phone width, and says PASS or FAIL |
-| [cold-read](https://github.com/DevCrazyCube/claude-skill-cold-read) | Hands a fresh agent only what your audience gets, and reads back what it understood |
-| [evidence-first-research](https://github.com/DevCrazyCube/claude-skill-evidence-first-research) | Every claim in a research log carries a label (measured, sourced, assumed), checked by a linter |
-| [agent-progress-log](https://github.com/DevCrazyCube/claude-skill-agent-progress-log) | An append-only progress log for a repo that several agents and people work in |
-| [short-reel-method](https://github.com/DevCrazyCube/claude-skill-short-reel-method) | A method for short comedy reels: one truth, one turn, a pitch that is checked before anything is drawn |
-| [comfyui-job-pipeline](https://github.com/DevCrazyCube/claude-skill-comfyui-job-pipeline) | Puts ComfyUI behind one boundary, so the frontend never sees a node id |
+```bash
+# install one: clone it into your skills folder
+git clone https://github.com/DevCrazyCube/claude-skill-cold-read ~/.claude/skills/cold-read
+```
+
+| Skill | Use it when | Checked by |
+| --- | --- | --- |
+| **[cold-read](https://github.com/DevCrazyCube/claude-skill-cold-read)** | You wrote a README, pitch or brief and can no longer read it as a stranger. A fresh agent gets only what the audience gets and says what it understood | Two example reads in the repo |
+| **[evidence-first-research](https://github.com/DevCrazyCube/claude-skill-evidence-first-research)** | A research log must not turn guesses into findings. Every claim carries a label: measured, sourced or assumed | A linter, 28 tests |
+| **[agent-progress-log](https://github.com/DevCrazyCube/claude-skill-agent-progress-log)** | Several agents and people work in one repo and the progress file keeps getting overwritten. One fragment per piece of work, one generated log | 9 tests |
+| **[film-ear-eye](https://github.com/DevCrazyCube/claude-skill-film-ear-eye)** | A film is "done" and nobody measured it. Loudness and silences; cuts, camera speed and holds | A self-test on a generated film, 17 checks |
+| **[art-director-round](https://github.com/DevCrazyCube/claude-skill-art-director-round)** | The numbers pass and it still looks unfinished. A separate critic judges stills of every shot, full size and phone width | 11 tests, one example round |
+| **[short-reel-method](https://github.com/DevCrazyCube/claude-skill-short-reel-method)** | A short comedy reel needs a point. One truth, one turn, and a one-line pitch that is checked before anything is drawn | 25 tests |
+| **[comfyui-job-pipeline](https://github.com/DevCrazyCube/claude-skill-comfyui-job-pipeline)** | A frontend talks to ComfyUI node ids directly. This puts ComfyUI behind one boundary | 51 tests against a mock server, not against ComfyUI |
 
 ## Projects
 
-| Project | What it is |
+<table>
+  <tr>
+    <td width="50%">
+      <a href="https://github.com/DevCrazyCube/mc-trend-analysis"><img src="assets/mc-trend-analysis.png" alt="The mc-trend-analysis operator dashboard"></a>
+      <br><b><a href="https://github.com/DevCrazyCube/mc-trend-analysis">mc-trend-analysis</a></b><br>
+      Links new token launches to news and search narratives and scores potential against risk.
+      It does not trade. The picture shows the key-free demo on made-up data.
+    </td>
+    <td width="50%">
+      <a href="https://github.com/DevCrazyCube/VitalMap"><img src="assets/vitalmap.png" alt="VitalMap: a world map coloured by births in the year 2000"></a>
+      <br><b><a href="https://github.com/DevCrazyCube/VitalMap">VitalMap</a></b><br>
+      World births and deaths, 1950 to 2100, on an interactive D3 map. Flask, D3, GSAP.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <a href="https://github.com/DevCrazyCube/piper"><img src="assets/piper.png" alt="The Piper pipeline dashboard"></a>
+      <br><b><a href="https://github.com/DevCrazyCube/piper">piper</a></b><br>
+      A data pipeline with encryption and audit built in. A four-person school project; the
+      security pillar is my part. The picture shows two public test datasets.
+    </td>
+    <td width="50%">
+      <a href="https://github.com/DevCrazyCube/dynamic-sokoban-pathfinding"><img src="assets/sokoban-level-2.svg" alt="An animated Sokoban solution of 69 moves"></a>
+      <br><b><a href="https://github.com/DevCrazyCube/dynamic-sokoban-pathfinding">dynamic-sokoban-pathfinding</a></b><br>
+      A Sokoban solver in pure Python: BFS over moves, A* over pushes. The animation is the
+      solver's own SVG export.
+    </td>
+  </tr>
+</table>
+
+| Also | What it is |
 | --- | --- |
-| [trading-research-lab](https://github.com/DevCrazyCube/trading-research-lab) | Evidence-first trading research: a measurement harness and forward paper tests. Not a trading bot; nothing here is shown to make money after costs |
-| [mc-trend-analysis](https://github.com/DevCrazyCube/mc-trend-analysis) | Links new token launches to news and search narratives and scores potential against risk. It does not trade |
-| [Flappybird-Reinforcement-learning](https://github.com/DevCrazyCube/Flappybird-Reinforcement-learning) | A PPO agent that learned Flappy Bird from five numbers, with a seeded evaluation |
-| [dynamic-sokoban-pathfinding](https://github.com/DevCrazyCube/dynamic-sokoban-pathfinding) | Sokoban solver in pure Python: BFS over moves, A* over pushes, animated SVG export |
-| [VitalMap](https://github.com/DevCrazyCube/VitalMap) | World births and deaths, 1950 to 2100, on an interactive D3 map |
-| [piper](https://github.com/DevCrazyCube/piper) | A data pipeline with encryption and audit built in; my part of a four-person school project |
+| [trading-research-lab](https://github.com/DevCrazyCube/trading-research-lab) | Evidence-first trading research: a measurement harness and forward paper tests. Not a trading bot, and nothing in it is shown to make money after costs |
+| [Flappybird-Reinforcement-learning](https://github.com/DevCrazyCube/Flappybird-Reinforcement-learning) | A PPO agent that learned Flappy Bird from five numbers. The game underneath is someone else's and is credited there |
 
-## Find me
-
-[studysync.nl](https://studysync.nl) · [@studysyncnl on Instagram](https://www.instagram.com/studysyncnl)
+The pictures and descriptions of mc-trend-analysis, VitalMap, piper and the Sokoban solver show
+the version in each repository's open pull request #1.
