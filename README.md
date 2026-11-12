@@ -45,6 +45,16 @@ becomes a short path of practice: flashcards with spaced repetition, a quiz, a c
 class quiz on the big screen. Pre-launch, so no customers yet. The source is private; the
 **[explainer with screenshots of the current app](https://github.com/DevCrazyCube/studysync-showcase)** is public.
 
+<a href="https://github.com/DevCrazyCube/studysync-showcase#live-for-the-whole-class">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/studysync-live-dark.png">
+    <img src="assets/studysync-live-light.png" width="100%" alt="StudySync Live: the class quiz lobby on the big screen with a join code and the players as characters, and two phones: You are Steady Heron, and Correct, plus 846">
+  </picture>
+</a>
+
+**Live**, the class quiz: the teacher's screen shows the question, phones are the buzzers, and every
+player gets a made-up name and character. The picture shows the new Live design, which I'm building now.
+
 ## Claude skills
 
 Seven small skills for Claude Code. Each is one folder: the instructions, a script for the part a
