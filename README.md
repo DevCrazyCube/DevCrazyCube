@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img src="assets/banner-light.svg" width="100%" alt="Joyren Terken. I build by directing AI coding agents, and I check what they make.">
+  <img src="assets/banner-light.svg" width="100%" alt="Joyren Terken. I build by directing AI coding agents, and I check what they make. Beside the words, my StudySync character holds up a magnifying glass.">
 </picture>
 
 I'm building **[StudySync](https://studysync.nl)**: it reads your course in Moodle or Canvas and turns
@@ -28,7 +28,7 @@ Every README says what was run and what was not, so you can tell what is verifie
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
-  <img src="assets/stats-light.svg" width="100%" alt="Public repos, stars, followers, commits and lines of code of this account, with the languages, recounted every week">
+  <img src="assets/stats-light.svg" width="100%" alt="Lines of code, commits, public repos, followers and stars of this account's public repos, with the share of each language, recounted every week">
 </picture>
 
 ## StudySync
