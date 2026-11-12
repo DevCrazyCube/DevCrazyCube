@@ -26,6 +26,25 @@ Every README says what was run and what was not, so you can tell what is verifie
   <a href="https://www.instagram.com/studysyncnl">@studysyncnl</a>
 </p>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
+  <img src="assets/stats-light.svg" width="100%" alt="Public repos, stars, followers, commits and lines of code of this account, with the languages, recounted every week">
+</picture>
+
+## StudySync
+
+<a href="https://github.com/DevCrazyCube/studysync-showcase">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/studysync-dark.png">
+    <img src="assets/studysync-light.png" width="100%" alt="Four StudySync screens on a phone: a week's path, a missed answer with the right one shown, a flashcard and an opened chest">
+  </picture>
+</a>
+
+The product I'm building. A student connects Moodle or Canvas once, and every week of the course
+becomes a short path of practice: flashcards with spaced repetition, a quiz, a cheatsheet, and a
+class quiz on the big screen. Pre-launch, so no customers yet. The source is private; the
+**[explainer with screenshots of the current app](https://github.com/DevCrazyCube/studysync-showcase)** is public.
+
 ## Claude skills
 
 Seven small skills for Claude Code. Each is one folder: the instructions, a script for the part a

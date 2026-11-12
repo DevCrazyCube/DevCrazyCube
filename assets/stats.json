@@ -1,0 +1,19 @@
+{
+  "commits": 802,
+  "counted": "2026-11-12",
+  "followers": 2,
+  "langs": {
+    "CSS": 2530,
+    "HTML": 4174,
+    "Java": 469,
+    "JavaScript": 4818,
+    "Python": 395292,
+    "Rust": 4303,
+    "SQL": 98,
+    "Shell": 2112,
+    "TypeScript": 4457
+  },
+  "lines": 418253,
+  "repos": 17,
+  "stars": 1
+}
