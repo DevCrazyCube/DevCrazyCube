@@ -1,7 +1,24 @@
+
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
+  <img src="assets/stats-light.svg" width="100%" alt="Lines of code, commits, public repos, followers and stars of this account's public repos, with the share of each language, recounted every week">
+</picture>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
   <img src="assets/banner-light.svg" width="100%" alt="Joyren Terken. I build by directing AI coding agents, and I check what they make. Beside the words, my StudySync character holds up a magnifying glass.">
 </picture>
+
+<br></br>
+<p>
+  <a href="https://studysync.nl"><b>studysync.nl</b></a> ·
+  <a href="https://www.linkedin.com/in/joyren-terken-0bb02429a">LinkedIn</a> ·
+  <a href="https://www.instagram.com/dev.joyren">@dev.joyren</a> ·
+  <a href="https://www.instagram.com/studysyncnl">@studysyncnl</a>
+</p>
+<br></br>
+
 
 I'm building **[StudySync](https://studysync.nl)**: it reads your course in Moodle or Canvas and turns
 it into flashcards, quizzes and cheatsheets, week by week. It is pre-launch.
@@ -19,17 +36,7 @@ I don't hand-write most of the code anymore. My part is the direction and the ch
 
 Every README says what was run and what was not, so you can tell what is verified from what is only built.
 
-<p>
-  <a href="https://studysync.nl"><b>studysync.nl</b></a> ·
-  <a href="https://www.linkedin.com/in/joyren-terken-0bb02429a">LinkedIn</a> ·
-  <a href="https://www.instagram.com/dev.joyren">@dev.joyren</a> ·
-  <a href="https://www.instagram.com/studysyncnl">@studysyncnl</a>
-</p>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
-  <img src="assets/stats-light.svg" width="100%" alt="Lines of code, commits, public repos, followers and stars of this account's public repos, with the share of each language, recounted every week">
-</picture>
+<br></br>
 
 ## StudySync
 
@@ -39,11 +46,13 @@ Every README says what was run and what was not, so you can tell what is verifie
     <img src="assets/studysync-light.png" width="100%" alt="Four StudySync screens on a phone: a week's path, a missed answer with the right one shown, a flashcard and an opened chest">
   </picture>
 </a>
+<br></br>
 
 The product I'm building. A student connects Moodle or Canvas once, and every week of the course
 becomes a short path of practice: flashcards with spaced repetition, a quiz, a cheatsheet, and a
 class quiz on the big screen. Pre-launch, so no customers yet. The source is private; the
 **[explainer with screenshots of the current app](https://github.com/DevCrazyCube/studysync-showcase)** is public.
+<br></br>
 
 <a href="https://github.com/DevCrazyCube/studysync-showcase#live-for-the-whole-class">
   <picture>
@@ -51,9 +60,11 @@ class quiz on the big screen. Pre-launch, so no customers yet. The source is pri
     <img src="assets/studysync-live-light.png" width="100%" alt="StudySync Live: the class quiz lobby on the big screen with a join code and the players as characters, and two phones: You are Steady Heron, and Correct, plus 846">
   </picture>
 </a>
+<br></br>
 
 **Live**, the class quiz: the teacher's screen shows the question, phones are the buzzers, and every
 player gets a made-up name and character. The picture shows the new Live design, which I'm building now.
+<br></br>
 
 ## Claude skills
 
@@ -74,6 +85,7 @@ git clone https://github.com/DevCrazyCube/claude-skill-cold-read ~/.claude/skill
 | **[art-director-round](https://github.com/DevCrazyCube/claude-skill-art-director-round)** | The numbers pass and it still looks unfinished. A separate critic judges stills of every shot, full size and phone width | 11 tests, one example round |
 | **[short-reel-method](https://github.com/DevCrazyCube/claude-skill-short-reel-method)** | A short comedy reel needs a point. One truth, one turn, and a one-line pitch that is checked before anything is drawn | 25 tests |
 | **[comfyui-job-pipeline](https://github.com/DevCrazyCube/claude-skill-comfyui-job-pipeline)** | A frontend talks to ComfyUI node ids directly. This puts ComfyUI behind one boundary | 51 tests against a mock server, not against ComfyUI |
+<br></br>
 
 ## Projects
 
